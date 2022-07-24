@@ -6,8 +6,5 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 @Component
 public class ConstructorCircularDependencyClassC {
-
-
-//    private final ConstructorCircularDependencyClassA constructorCircularDependencyClassA;
-
+    //private final ConstructorCircularDependencyClassA constructorCircularDependencyClassA;
 }

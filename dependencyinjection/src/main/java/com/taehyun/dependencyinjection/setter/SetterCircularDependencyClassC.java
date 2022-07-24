@@ -5,11 +5,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SetterCircularDependencyClassC {
-//
-//    private SetterCircularDependencyClassC setterCircularDependencyClassC;
-//
-//    @Autowired
-//    public void setSetterCircularDependencyClassC(SetterCircularDependencyClassC setterCircularDependencyClassC) {
-//        this.setterCircularDependencyClassC = setterCircularDependencyClassC;
-//    }
+
+    private SetterCircularDependencyClassA setterCircularDependencyClassA;
+
+    @Autowired
+    public void setSetterCircularDependencyClassA(SetterCircularDependencyClassA setterCircularDependencyClassA) {
+        this.setterCircularDependencyClassA = setterCircularDependencyClassA;
+    }
 }

@@ -8,6 +8,5 @@ import org.springframework.stereotype.Component;
 @Getter
 @Component
 public class DependencyClassA implements Dependency {
-    private int testInt = 0;
-    private String testString = "test";
+    private String testString = "classA";
 }
