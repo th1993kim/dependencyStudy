@@ -1,0 +1,9 @@
+### 필드 주입 API
+GET http://localhost:9000/fieldInjection
+
+### 수정자 주입 API
+GET http://localhost:9000/setterInjection
+
+### 생성자 주입 API
+GET http://localhost:9000/constructorInjection
+
